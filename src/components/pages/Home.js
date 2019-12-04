@@ -1,10 +1,11 @@
 import React, { Fragment } from "react";
+import OurMission from "./../layout/AboutUs.png";
 
 const Home = () => {
   return (
     <Fragment>
       <h1 className="text-center m-4 title">Our Philosophy</h1>
-      <div className="text-center grid-3">
+      <div className="text-center grid-3 m-3">
         <div>
           <h2>Community</h2>
           <p>
@@ -32,6 +33,26 @@ const Home = () => {
             life. Hopefully inspiring new adventures in the process.{" "}
           </p>
         </div>
+      </div>
+      <div className="text-center">
+        <button type="button" className="btn btn-primary">
+          Join Now!
+        </button>
+      </div>
+
+      <img src={OurMission} alt="Our Mission" className="my-2" />
+      <div className="grid-2 my-3">
+        <h2>A global emporium.</h2>
+        <p>
+          Open MRKTS was founded in 2019 as a forum of free trade and global
+          exploration where anyone from anywhere can experience the wonders of
+          multiculturalism and the amazing products that come out of it. Our
+          objective is to empower small vendors from all over the world that
+          have a vision they want to share. We bring that passion, those
+          products, and culture to your doorstep with our beautifully wrapped
+          gift boxes. Each item has a unique story it tells and we want to
+          capture that.
+        </p>
       </div>
     </Fragment>
   );

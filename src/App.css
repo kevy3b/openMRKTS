@@ -440,3 +440,29 @@ table th {
     justify-content: center;
   }
 }
+
+.fun-text {
+  color: #ffffff;
+  z-index: 10;
+  position: absolute;
+  top: 40%;
+  left: 8%;
+  font-size: 3rem;
+  display: flex;
+}
+
+.fun-btn {
+  position: absolute;
+  top: 60%;
+  left: 8%;
+}
+
+#img-background {
+  position: relative;
+  z-index: 1;
+}
+
+.go-down {
+  position: relative;
+  top: 50vh;
+}

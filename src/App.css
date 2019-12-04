@@ -10,6 +10,10 @@
   --success-color: #28a745;
 }
 
+.white-color {
+  color: var(--light-color);
+}
+
 .title {
   font-weight: 900;
   font-size: 3.1rem;
@@ -59,6 +63,17 @@ img {
   max-height: 50%;
   left: 0;
   overflow: hidden;
+}
+
+.img-wrapper-banner2 {
+  position: absolute;
+  margin: 0;
+  max-height: 65%;
+  left: 0;
+  overflow: hidden;
+  top: 180vh;
+  background-image: url("/src/components/layout/images/Blanket.jpg");
+  /* transform: translate(30%, 50%); */
 }
 
 .logo-img {
@@ -465,4 +480,17 @@ table th {
 .go-down {
   position: relative;
   top: 50vh;
+  overflow: scroll;
+  height: 150vh;
+}
+
+.over-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 200vh;
+  left: 32%;
+  z-index: 10;
+  border: 0.1rem solid red;
 }

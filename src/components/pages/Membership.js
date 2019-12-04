@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-//import Blanket from "./../layout/images/Blanket.jpg";
+import Blanket from "./../layout/images/Blanket.jpg";
 import Figurines from "./../layout/images/Figurines.jpg";
 import Jars from "./../layout/images/Jars.jpg";
 import Pots from "./../layout/images/Pots.jpg";
@@ -57,6 +57,19 @@ const Membership = () => {
           </button>
         </div>
       </section>
+      <div className="img-wrapper-banner2">
+        <img src={Blanket} alt="Blanket"></img>
+      </div>
+      <div className="over-image p-3">
+        <h2 className="white-color">Subscribe to our Newsletter</h2>
+        <p className="white-color">
+          Sign up with your email address to receive news and updates.
+        </p>
+        <input type="email" name="emailaddress"></input>
+        <button type="submit" className="btn btn-primary">
+          Sign Up
+        </button>
+      </div>
     </Fragment>
   );
 };

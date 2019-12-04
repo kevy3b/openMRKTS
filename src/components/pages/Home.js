@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import OurMission from "./../layout/AboutUs.png";
+import OurMission from "./../layout/images/AboutUs.png";
 
 const Home = () => {
   return (

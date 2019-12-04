@@ -53,10 +53,12 @@ img {
   width: 100%;
 }
 
-.img-banner {
+.img-wrapper-banner {
   position: absolute;
+  margin: 0;
+  max-height: 50%;
   left: 0;
-  margin: 3rem 0;
+  overflow: hidden;
 }
 
 .logo-img {

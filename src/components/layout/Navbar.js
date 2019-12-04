@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "./logo.svg";
 
 const Navbar = () => {
   return (
     <nav className="navbar bg-dark">
       <Link to="/">
-        <h1 id="title">Open MRKTS</h1>
+        <img className="logo-img" src={logo} alt="Open MRKTS Logo" />
       </Link>
-
       <ul>
         <li>
           <Link to="/">About</Link>

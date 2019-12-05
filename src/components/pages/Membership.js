@@ -20,7 +20,7 @@ const Membership = () => {
       <button type="button" className="btn btn-primary fun-btn">
         Join Now!
       </button>
-      <section className="go-down">
+      <section className="go-down container">
         <h1 className="m-4 title">How it works.</h1>
         <div className="grid-3">
           <div>

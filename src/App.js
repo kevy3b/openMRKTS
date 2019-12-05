@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
 import Contact from "./components/pages/Contact";
 import Membership from "./components/pages/Membership";
 import Home from "./components/pages/Home";
@@ -24,6 +25,7 @@ const App = () => {
             <Route component={NotFound} />
           </Switch>
         </div>
+        <Footer />
       </div>
     </Router>
   );

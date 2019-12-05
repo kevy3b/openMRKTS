@@ -10,8 +10,16 @@
   --success-color: #28a745;
 }
 
-.white-color {
+.light-color {
   color: var(--light-color);
+}
+
+.dark-color {
+  color: var(--dark-color);
+}
+
+#dark-color {
+  color: var(--dark-color);
 }
 
 .title {
@@ -24,6 +32,11 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+}
+
+#bg-footer {
+  background-color: #222;
+  color: #fff;
 }
 
 * {
@@ -60,7 +73,7 @@ img {
 .img-wrapper-banner {
   position: absolute;
   margin: 0;
-  max-height: 50%;
+  max-height: 55%;
   left: 0;
   overflow: hidden;
 }
@@ -71,13 +84,31 @@ img {
   max-height: 65%;
   left: 0;
   overflow: hidden;
-  top: 180vh;
+  top: 184vh;
   background-image: url("/src/components/layout/images/Blanket.jpg");
   /* transform: translate(30%, 50%); */
 }
 
 .logo-img {
-  width: 26%;
+  width: 28%;
+  min-width: 70px;
+}
+
+.logo-img-footer {
+  width: 9rem;
+  min-width: 10vw;
+  max-width: 30vw;
+}
+
+#figcaption {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  margin-top: -0.8rem;
+  margin-left: 0.8rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #aab0b0;
 }
 
 /* Utilities */
@@ -464,6 +495,8 @@ table th {
   left: 8%;
   font-size: 3rem;
   display: flex;
+  text-shadow: 1px 1px 2px black;
+  padding-right: 65px;
 }
 
 .fun-btn {
@@ -481,7 +514,7 @@ table th {
   position: relative;
   top: 50vh;
   overflow: scroll;
-  height: 150vh;
+  height: 229vh;
 }
 
 .over-image {
@@ -493,4 +526,22 @@ table th {
   left: 32%;
   z-index: 10;
   border: 0.1rem solid red;
+}
+
+@media (max-width: 1150px) {
+  .fun-text {
+    margin-top: -2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .fun-text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .fun-text {
+    display: none;
+  }
 }

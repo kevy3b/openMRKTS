@@ -15,9 +15,7 @@ const Membership = () => {
         <img src={Pots} alt="Pots"></img>
       </div>
       <h1 className="fun-text">
-        A CURATED PACKAGE DELIVERED TO YOUR
-        <br />
-        FRONT DOOR.
+        A CURATED PACKAGE DELIVERED TO YOUR FRONT DOOR.
       </h1>
       <button type="button" className="btn btn-primary fun-btn">
         Join Now!

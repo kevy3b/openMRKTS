@@ -1,28 +1,38 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar bg-dark">
+    <nav className="navbar bg-light">
       <Link to="/">
         <img className="logo-img" src={logo} alt="Open MRKTS Logo" />
       </Link>
       <ul>
         <li>
-          <Link to="/">About</Link>
+          <Link to="/" id="dark-color">
+            About
+          </Link>
         </li>
         <li>
-          <Link to="/membership">Membership</Link>
+          <Link to="/membership" id="dark-color">
+            Membership
+          </Link>
         </li>
         <li>
-          <Link to="/shop">Shop</Link>
+          <Link to="/shop" id="dark-color">
+            Shop
+          </Link>
         </li>
         <li>
-          <Link to="/globalstories">Global Stories</Link>
+          <Link to="/globalstories" id="dark-color">
+            Global Stories
+          </Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact" id="dark-color">
+            Contact
+          </Link>
         </li>
         <li>
           <a
@@ -30,7 +40,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-instagram"></i>
+            <i className="fab fa-instagram dark-color"></i>
           </a>
         </li>
         <li>
@@ -39,7 +49,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-facebook-f"></i>
+            <i className="fab fa-facebook-f dark-color"></i>
           </a>
         </li>
         <li>
@@ -48,7 +58,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-twitter"></i>
+            <i className="fab fa-twitter dark-color"></i>
           </a>
         </li>
         <li>
@@ -57,7 +67,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fas fa-shopping-cart"></i>
+            <i className="fas fa-shopping-cart dark-color"></i>
           </a>
         </li>
       </ul>

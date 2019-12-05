@@ -22,6 +22,14 @@
   color: var(--dark-color);
 }
 
+.fixed {
+  position: fixed;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px black;
+}
+
 .title {
   font-weight: 900;
   font-size: 3.1rem;
@@ -544,4 +552,8 @@ table th {
   .fun-text {
     display: none;
   }
+}
+
+.img-project:hover {
+  opacity: 0.3;
 }

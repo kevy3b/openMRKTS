@@ -59,8 +59,8 @@ const Membership = () => {
         <img src={Blanket} alt="Blanket"></img>
       </div>
       <div className="over-image p-3">
-        <h2 className="white-color">Subscribe to our Newsletter</h2>
-        <p className="white-color">
+        <h2 className="light-color text-shadow">Subscribe to our Newsletter</h2>
+        <p className="light-color text-shadow">
           Sign up with your email address to receive news and updates.
         </p>
         <input type="email" name="emailaddress"></input>

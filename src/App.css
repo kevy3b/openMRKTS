@@ -501,7 +501,7 @@ table th {
   color: #ffffff;
   z-index: 10;
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 8%;
   font-size: 3rem;
   display: flex;
@@ -531,10 +531,11 @@ table th {
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  top: 200vh;
-  left: 32%;
   z-index: 10;
   border: 0.1rem solid red;
+  top: 216.5vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 1150px) {
@@ -545,13 +546,66 @@ table th {
 
 @media (max-width: 900px) {
   .fun-text {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
 
 @media (max-width: 440px) {
   .fun-text {
     display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .fun-text {
+    top: 48%;
+  }
+}
+
+@media (max-width: 700px) {
+  .fun-btn {
+    top: 75%;
+  }
+}
+
+@media (max-width: 554px) {
+  .fun-text {
+    font-size: 2rem;
+    top: 43%;
+  }
+}
+
+@media (max-width: 554px) {
+  .fun-btn {
+    top: 68%;
+  }
+}
+
+@media (max-width: 701px) {
+  .img-wrapper-banner2 {
+    z-index: -1;
+    position: absolute;
+    margin: 0;
+    max-height: 95%;
+    left: 0;
+    overflow: hidden;
+    top: 304vh;
+    background-image: url("/src/components/layout/images/Blanket.jpg");
+    /* transform: translate(30%, 50%); */
+  }
+}
+
+@media (max-width: 701px) {
+  .over-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    border: none;
+    z-index: 10;
+    top: 330.5vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 

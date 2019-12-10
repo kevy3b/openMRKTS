@@ -17,7 +17,7 @@ const useWindowSize = () => {
 
 const Navbar = () => {
   const width = useWindowSize();
-  if (width < 649) {
+  if (width < 535) {
     return (
       <nav className="navbar bg-light">
         <Link to="/">
@@ -25,13 +25,29 @@ const Navbar = () => {
         </Link>
         <ul>
           <li>
-            <a
-              href="https://www.youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link to="/" id="dark-color">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/shop" id="dark-color">
+              Shop
+            </Link>
+          </li>
+          <li>
+            <Link to="/globalstories" id="dark-color">
+              Global Stories
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" id="dark-color">
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link to="/shoppingcart" id="dark-color">
               <i className="fas fa-shopping-cart dark-color"></i>
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
@@ -91,13 +107,9 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a
-              href="https://www.youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link to="/shoppingcart" id="dark-color">
               <i className="fas fa-shopping-cart dark-color"></i>
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

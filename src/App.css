@@ -442,8 +442,15 @@ table th {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 535px) {
+  .navbar ul {
+    overflow: auto;
+  }
+}
+
 .navbar ul {
   display: flex;
+  flex-direction: row;
 }
 
 .navbar a {

@@ -45,12 +45,7 @@ const Navbar = () => {
         <ul>
           <li>
             <Link to="/" id="dark-color">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="/membership" id="dark-color">
-              Membership
+              Home
             </Link>
           </li>
           <li>

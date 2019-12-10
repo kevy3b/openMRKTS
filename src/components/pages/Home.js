@@ -1,8 +1,10 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 import OurMission from "./../layout/images/AboutUs.png";
 import Blanket from "./../layout/images/Blanket.jpg";
-import Figurines from "./../layout/images/Figurines.jpg";
-import Jars from "./../layout/images/Jars.jpg";
+import Customize from "./../layout/images/Customize.png";
+import JoinTheMarket from "./../layout/images/JoinTheMarket.png";
+import QuarterlyTreasures from "./../layout/images/QuarterlyTreasures.png";
 import Pots from "./../layout/images/Pots.jpg";
 
 const negmargin = {
@@ -18,14 +20,21 @@ const Home = () => {
       <h1 className="fun-text">
         A CURATED PACKAGE DELIVERED TO YOUR FRONT DOOR.
       </h1>
-      <button type="button" className="btn btn-primary fun-btn">
-        Join Now!
-      </button>
+      <Link to="/quiz">
+        <button type="button" className="btn btn-primary fun-btn">
+          Join Now!
+        </button>
+      </Link>
+
       <section className="go-down container">
         <h1 className="m-4 title">How it works.</h1>
-        <div className="grid-3">
+        <div className="grid-3 text-center">
           <div>
-            <img src={Figurines} alt="Figurines"></img>
+            <img
+              className="good-img"
+              src={Customize}
+              alt="Box and Pencil Icon"
+            ></img>
             <h1>Customize.</h1>
             <p>
               Take our quiz to set your preferences and integrate your
@@ -34,7 +43,11 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <img src={Jars} alt="Jars"></img>
+            <img
+              className="good-img"
+              src={JoinTheMarket}
+              alt="Globe Icon"
+            ></img>
             <h1>Join the Market.</h1>
             <p>
               Unlock all the insights into global markets, local entrepreneurs,
@@ -43,17 +56,25 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <h1>Monthly Treasures.</h1>
+            <img
+              className="good-img"
+              src={QuarterlyTreasures}
+              alt="Calendar and Key Icon"
+            ></img>
+            <h1>Quarterly Treasures.</h1>
             <p>
               Every month receive a gift that tells a story delivered to your
-              doorstep.{" "}
+              doorstep. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Magnam voluptates quibu{" "}
             </p>
           </div>
         </div>
         <div className="text-center">
-          <button type="button" className="my-3 btn btn-primary">
-            Join Now!
-          </button>
+          <Link to="/quiz">
+            <button type="button" className="my-3 btn btn-primary">
+              Join Now!
+            </button>
+          </Link>
         </div>
       </section>
 
@@ -81,8 +102,8 @@ const Home = () => {
         <div>
           <h2>Share</h2>
           <p>
-            We want to bring the best products and most creative ideas that come
-            from exploring the world to your doorstep. We want to make that
+            We bring the best products and most creative ideas that come from
+            exploring the world to your doorstep. We want to make that
             inspiration that comes with traveling a regular phenomenon in your
             life. Hopefully inspiring new adventures in the process.{" "}
           </p>
@@ -99,13 +120,13 @@ const Home = () => {
         <h2>A global emporium.</h2>
         <p>
           Open MRKTS was founded in 2019 as a forum of free trade and global
-          exploration where anyone from anywhere can experience the wonders of
+          emporium where anyone from anywhere can experience the wonders of
           multiculturalism and the amazing products that come out of it. Our
           objective is to empower small vendors from all over the world that
           have a vision they want to share. We bring that passion, those
           products, and culture to your doorstep with our beautifully wrapped
-          gift boxes. Each item has a unique story it tells and we want to
-          capture that.
+          gift boxes. Each item has a unique story it tells and we capture that
+          through every box we send.
         </p>
       </div>
       <div className="img-wrapper-banner2">

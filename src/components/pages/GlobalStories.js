@@ -4,6 +4,7 @@ import Adventure from "./../layout/images/Adventure.jpg";
 const GlobalStories = () => {
   return (
     <Fragment>
+      <h1>Global Stories - Coming Soon!</h1>
       <div className="grid-3 my-3">
         <div className="">
           <h2>Project One</h2>

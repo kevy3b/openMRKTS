@@ -110,6 +110,11 @@ img {
   max-width: 30vw;
 }
 
+.good-img {
+  max-width: 15rem;
+  margin: 0 auto;
+}
+
 #figcaption {
   font-size: 13px;
   font-size: 0.8125rem;
@@ -624,6 +629,12 @@ table th {
 @media (max-width: 572px) {
   div.text-center.grid-3.m-3 {
     margin: 1rem;
+  }
+}
+
+@media (max-width: 572px) {
+  .good-img {
+    max-width: 10rem;
   }
 }
 

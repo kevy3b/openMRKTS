@@ -9,6 +9,7 @@ import Shop from "./components/pages/Shop";
 import GlobalStories from "./components/pages/GlobalStories";
 import ShoppingCart from "./components/pages/ShoppingCart";
 import NotFound from "./components/pages/NotFound";
+import Quiz from "./components/pages/Quiz";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
             <Route exact path="/globalstories" component={GlobalStories} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/shoppingcart" component={ShoppingCart} />
+            <Route exact patj="/quiz" component={Quiz} />
             <Route component={NotFound} />
           </Switch>
         </div>

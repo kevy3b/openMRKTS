@@ -137,10 +137,13 @@ const Home = () => {
         <p className="light-color text-shadow">
           Sign up with your email address to receive news and updates.
         </p>
-        <input type="email" name="emailaddress"></input>
-        <button type="submit" className="btn btn-primary">
-          Sign Up
-        </button>
+        <form name="newsletter" method="post">
+          <input type="hidden" name="form-name" value="newsletter" />
+          <input type="email" name="emailaddress" />
+          <button type="submit" className="btn btn-primary">
+            Sign Up
+          </button>
+        </form>
       </div>
     </Fragment>
   );

@@ -14,7 +14,8 @@ const Contact = () => {
         </p>
         <h2 className="my-1">OpenMRKTS@gmail.com</h2>
       </div>
-      <form>
+      <form name="contact" method="post">
+        <input type="hidden" name="form-name" value="contact" />
         First name:
         <br />
         <input type="text" name="firstname" />
@@ -24,14 +25,14 @@ const Contact = () => {
         <input type="text" name="lastname" />
         Email:
         <br />
-        <input type="text" name="email" />
+        <input type="email" name="email" />
         <br />
         Subject:
         <br />
         <input type="text" name="subject" />
         Message:
         <br />
-        <textarea rows="4" cols="50"></textarea>
+        <textarea name="message" rows="4" cols="50"></textarea>
         <button className="btn btn-primary my-2" type="submit" value="Submit">
           Submit
         </button>

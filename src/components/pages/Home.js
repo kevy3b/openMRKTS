@@ -63,9 +63,10 @@ const Home = () => {
             ></img>
             <h1>Quarterly Treasures.</h1>
             <p>
-              Every month receive a gift that tells a story delivered to your
-              doorstep. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit. Magnam voluptates quibu{" "}
+              Every season receive a gift that tells a story delivered to your
+              doorstep. We promise to scour the world searching for the best
+              brands and products for you. Everything we purchase is ethically
+              sourced and tells a story.{" "}
             </p>
           </div>
         </div>

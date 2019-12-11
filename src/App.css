@@ -534,7 +534,7 @@ table th {
 
 .go-down {
   position: relative;
-  top: 24rem;
+  top: 30rem;
   margin-bottom: 24.5rem;
 }
 
@@ -581,6 +581,12 @@ table th {
 @media (max-width: 440px) {
   .go-down {
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .go-down {
+    top: 20rem;
   }
 }
 

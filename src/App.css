@@ -89,6 +89,7 @@ img {
 
 .img-wrapper-banner img {
   transform: translateY(-40%);
+  opacity: 0.9;
 }
 
 .img-wrapper-banner2 {

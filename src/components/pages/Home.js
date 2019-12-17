@@ -20,7 +20,7 @@ const Home = () => {
         <img src={Market} alt="Pots"></img>
       </div>
       <h1 className="fun-text">
-        A CURATED PACKAGE DELIVERED TO YOUR FRONT DOOR.
+        A CURATED PACKAGE DELIVERED TO YOUR FRONT DOOR!
       </h1>
       <Link to="/quiz">
         <button type="button" className="btn btn-primary fun-btn">

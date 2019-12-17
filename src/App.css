@@ -87,6 +87,10 @@ img {
   z-index: -1;
 }
 
+.img-wrapper-banner img {
+  transform: translateY(-40%);
+}
+
 .img-wrapper-banner2 {
   z-index: -1;
   position: absolute;
@@ -123,6 +127,15 @@ img {
   line-height: 24px;
   line-height: 1.5rem;
   text-transform: uppercase;
+  color: #aab0b0;
+}
+
+#figcaption2 {
+  line-height: 24px;
+  line-height: 1.5rem;
+  margin-left: 0.8rem;
+  font-size: 0.8125rem;
+  font-size: 13px;
   color: #aab0b0;
 }
 
@@ -548,7 +561,6 @@ table th {
   justify-content: center;
   position: absolute;
   z-index: 10;
-  border: 0.1rem solid red;
   top: 2910px;
   left: 50%;
   transform: translate(-50%, -50%);

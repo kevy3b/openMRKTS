@@ -13,6 +13,7 @@ const Footer = () => {
         className="logo-img-footer m-2"
       />
       <p id="figcaption">© 2019 Open MRKTS™. ALL RIGHTS RESERVED.</p>
+      <p id="figcaption2">Photographs by Aida Ivanez</p>
     </footer>
   );
 };

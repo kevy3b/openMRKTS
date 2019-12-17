@@ -1,11 +1,13 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import OurMission from "./../layout/images/AboutUs.png";
-import Blanket from "./../layout/images/Blanket.jpg";
+//import Blanket from "./../layout/images/Blanket.jpg";
 import Customize from "./../layout/images/Customize.png";
 import JoinTheMarket from "./../layout/images/JoinTheMarket.png";
 import QuarterlyTreasures from "./../layout/images/QuarterlyTreasures.png";
-import Pots from "./../layout/images/Pots.jpg";
+//import Pots from "./../layout/images/Pots.jpg";
+import Market from "./../layout/images/market.jpg";
+import Spices from "./../layout/images/spices.jpg";
 
 const negmargin = {
   "margin-top": "-1rem"
@@ -15,7 +17,7 @@ const Home = () => {
   return (
     <Fragment>
       <div className="img-wrapper-banner" style={negmargin}>
-        <img src={Pots} alt="Pots"></img>
+        <img src={Market} alt="Pots"></img>
       </div>
       <h1 className="fun-text">
         A CURATED PACKAGE DELIVERED TO YOUR FRONT DOOR.
@@ -131,7 +133,7 @@ const Home = () => {
         </p>
       </div>
       <div className="img-wrapper-banner2">
-        <img src={Blanket} alt="Blanket"></img>
+        <img src={Spices} alt="Blanket"></img>
       </div>
       <div className="over-image p-3">
         <h2 className="light-color text-shadow">Subscribe to our Newsletter</h2>

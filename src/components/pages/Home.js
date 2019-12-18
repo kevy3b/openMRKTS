@@ -127,7 +127,7 @@ const Home = () => {
 
         <img src={OurMission} alt="Our Mission" className="my-2" />
         <div className="grid-2 my-3">
-          <h2>A global emporium.</h2>
+          <h2 className={`${styles.libre}`}>A global emporium.</h2>
           <p>
             Open MRKTS was founded in 2019 as a forum of free trade and global
             emporium where anyone from anywhere can experience the wonders of

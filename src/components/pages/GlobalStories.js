@@ -6,20 +6,26 @@ const GlobalStories = () => {
   return (
     <div className="container">
       <div className="grid-3 my-3">
-        <div className="img-project">
-          <a
-            href="https://youtu.be/1shRECptczY"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <a
+          href="https://youtu.be/1shRECptczY"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className={`img-project ${styles.border}`}>
             <h2 className={`${styles.libre}`}>
               Honduras - Meet your Local Artisans
             </h2>
             <div className="img-project">
-              <img src={Honduras} alt="Project One" className="my-3" />
+              <img
+                src={Honduras}
+                alt="Project One"
+                className="my-3"
+                border="1"
+              />
             </div>
-          </a>
-        </div>
+          </div>
+        </a>
+
         {/* <a href="#">
           <div className="img-project">
             <h2>Project Two</h2>

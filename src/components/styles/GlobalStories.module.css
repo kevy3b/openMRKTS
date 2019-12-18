@@ -3,3 +3,9 @@
 .libre {
   font-family: "Libre Baskerville", "Roboto", "serif";
 }
+
+.border {
+  border: solid black 1px;
+  padding: 1rem 1rem 1rem 1rem;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}

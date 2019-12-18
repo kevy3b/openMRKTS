@@ -43,7 +43,7 @@ const Home = () => {
                 src={Customize}
                 alt="Box and Pencil Icon"
               ></img>
-              <h1>Customize.</h1>
+              <h1 className={`${styles.libre}`}>Customize.</h1>
               <p>
                 Take our quiz to set your preferences and integrate your
                 interests. We promise to search the globe for the best products
@@ -56,7 +56,7 @@ const Home = () => {
                 src={JoinTheMarket}
                 alt="Globe Icon"
               ></img>
-              <h1>Join the Market.</h1>
+              <h1 className={`${styles.libre}`}>Join the Market.</h1>
               <p>
                 Unlock all the insights into global markets, local
                 entrepreneurs, and cultural phenomenon. Our content is meant to
@@ -70,7 +70,7 @@ const Home = () => {
                 src={QuarterlyTreasures}
                 alt="Calendar and Key Icon"
               ></img>
-              <h1>Quarterly Treasures.</h1>
+              <h1 className={`${styles.libre}`}>Quarterly Treasures.</h1>
               <p>
                 Every season receive a gift that tells a story delivered to your
                 doorstep. We promise to scour the world searching for the best
@@ -92,7 +92,7 @@ const Home = () => {
         <h1 className={`text-center m-4 ${styles.title}`}>Our Philosophy</h1>
         <div className="text-center grid-3 m-3">
           <div>
-            <h2>Community</h2>
+            <h2 className={`${styles.libre}`}>Community</h2>
             <p>
               The world is becoming a smaller place! We are a melting pot of
               ideologies, cultures, and backgrounds and ALL of us have something
@@ -101,7 +101,7 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <h2>Empower</h2>
+            <h2 className={`${styles.libre}`}>Empower</h2>
             <p>
               Our vision is to give credit where credit is due. To all those
               talented and hard working entrepreneurs in every crevice of the
@@ -110,7 +110,7 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <h2>Share</h2>
+            <h2 className={`${styles.libre}`}>Share</h2>
             <p>
               We bring the best products and most creative ideas that come from
               exploring the world to your doorstep. We want to make that

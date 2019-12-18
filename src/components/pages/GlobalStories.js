@@ -1,47 +1,60 @@
 import React from "react";
-import Adventure from "./../layout/images/Adventure.jpg";
+import Honduras from "./../layout/images/Honduras.jpg";
+import styles from "./../styles/GlobalStories.module.css";
 
 const GlobalStories = () => {
   return (
     <div className="container">
-      <h1>Global Stories - Coming Soon!</h1>
       <div className="grid-3 my-3">
-        <div className="">
-          <h2>Project One</h2>
+        <div className="img-project">
+          <a
+            href="https://youtu.be/1shRECptczY"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={`${styles.libre}`}>
+              Honduras - Meet your Local Artisans
+            </h2>
+            <div className="img-project">
+              <img src={Honduras} alt="Project One" className="my-3" />
+            </div>
+          </a>
+        </div>
+        {/* <a href="#">
           <div className="img-project">
+            <h2>Project Two</h2>
+
             <img src={Adventure} alt="Project One" className="my-3" />
           </div>
-        </div>
-        <div>
-          <h2>Project Two</h2>
+        </a>
+        <a href="#">
           <div className="img-project">
+            <h2>Project Three</h2>
+
             <img src={Adventure} alt="Project One" className="my-3" />
           </div>
-        </div>
-        <div>
-          <h2>Project Three</h2>
+        </a>
+        <a href="#">
           <div className="img-project">
+            <h2>Project Four</h2>
+
             <img src={Adventure} alt="Project One" className="my-3" />
           </div>
-        </div>
-        <div>
-          <h2>Project Four</h2>
+        </a>
+        <a href="#">
           <div className="img-project">
+            <h2>Project Five</h2>
+
             <img src={Adventure} alt="Project One" className="my-3" />
           </div>
-        </div>
-        <div>
-          <h2>Project Five</h2>
+        </a>
+        <a href="#">
           <div className="img-project">
+            <h2>Project Six</h2>
+
             <img src={Adventure} alt="Project One" className="my-3" />
           </div>
-        </div>
-        <div>
-          <h2>Project Six</h2>
-          <div className="img-project">
-            <img src={Adventure} alt="Project One" className="my-3" />
-          </div>
-        </div>
+        </a> */}
       </div>
     </div>
   );

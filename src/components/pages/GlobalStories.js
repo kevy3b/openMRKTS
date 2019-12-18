@@ -1,9 +1,9 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Adventure from "./../layout/images/Adventure.jpg";
 
 const GlobalStories = () => {
   return (
-    <Fragment>
+    <div className="container">
       <h1>Global Stories - Coming Soon!</h1>
       <div className="grid-3 my-3">
         <div className="">
@@ -43,7 +43,7 @@ const GlobalStories = () => {
           </div>
         </div>
       </div>
-    </Fragment>
+    </div>
   );
 };
 

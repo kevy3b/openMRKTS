@@ -1,9 +1,9 @@
-import React, { Fragment } from "react";
+import React from "react";
 //import Necklace from "./../layout/images/Necklace.jpg";
 
 const Shop = () => {
   return (
-    <Fragment>
+    <div className="container">
       {/* <div className="image-container">
         <img src={Necklace} alt="Necklace" id="necklace" />
       </div> */}
@@ -32,7 +32,7 @@ const Shop = () => {
       <br />
       <br />
       <br />
-    </Fragment>
+    </div>
   );
 };
 

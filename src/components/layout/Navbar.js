@@ -1,6 +1,7 @@
 import React, { useLayoutEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "./images/logo.png";
+import styles from "./../styles/Navbar.module.css";
 
 const useWindowSize = () => {
   const [size, setSize] = useState([0, 0]);
@@ -19,7 +20,7 @@ const Navbar = () => {
   const width = useWindowSize();
   if (width < 535) {
     return (
-      <nav className="navbar bg-light">
+      <nav className={`${styles.navbar} bg-light`}>
         <Link to="/">
           <img className="logo-img" src={logo} alt="Open MRKTS Logo" />
         </Link>

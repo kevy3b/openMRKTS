@@ -26,15 +26,6 @@
   position: fixed;
 }
 
-.text-shadow {
-  text-shadow: 1px 1px 2px black;
-}
-
-.title {
-  font-weight: 900;
-  font-size: 3.1rem;
-}
-
 .header-name {
   font-weight: 900;
   font-size: 2rem;
@@ -78,32 +69,6 @@ img {
   width: 100%;
 }
 
-.img-wrapper-banner {
-  position: absolute;
-  margin: 0;
-  max-height: 55%;
-  left: 0;
-  overflow: hidden;
-  z-index: -1;
-}
-
-.img-wrapper-banner img {
-  transform: translateY(-40%);
-  opacity: 0.9;
-}
-
-.img-wrapper-banner2 {
-  z-index: -1;
-  position: absolute;
-  margin: 0;
-  max-height: 65%;
-  left: 0;
-  overflow: hidden;
-  top: 2699px;
-  background-image: url("/src/components/layout/images/Blanket.jpg");
-  /* transform: translate(30%, 50%); */
-}
-
 .logo-img {
   width: 28%;
   min-width: 70px;
@@ -113,11 +78,6 @@ img {
   width: 9rem;
   min-width: 10vw;
   max-width: 30vw;
-}
-
-.good-img {
-  max-width: 15rem;
-  margin: 0 auto;
 }
 
 #figcaption {
@@ -523,126 +483,9 @@ table th {
   }
 }
 
-.fun-text {
-  color: #ffffff;
-  z-index: 10;
-  position: absolute;
-  top: 35%;
-  left: 8%;
-  font-size: 3rem;
-  display: flex;
-  text-shadow: 1px 1px 2px black;
-  padding-right: 65px;
-}
-
-.fun-btn {
-  position: absolute;
-  top: 60%;
-  left: 8%;
-}
-
 #img-background {
   position: relative;
   z-index: 1;
-}
-
-.go-down {
-  position: relative;
-  top: 30rem;
-  margin-bottom: 24.5rem;
-}
-
-.some-down {
-  margin-bottom: 31rem;
-}
-
-.over-image {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: absolute;
-  z-index: 10;
-  top: 2910px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-@media (max-width: 1150px) {
-  .fun-text {
-    margin-top: -2rem;
-  }
-}
-
-@media (max-width: 900px) {
-  .fun-text {
-    font-size: 2.5rem;
-  }
-}
-
-@media (max-width: 440px) {
-  .fun-text {
-    display: none;
-  }
-}
-
-@media (max-width: 440px) {
-  .img-wrapper-banner {
-    display: none;
-  }
-}
-
-@media (max-width: 440px) {
-  .go-down {
-    margin-bottom: 0;
-  }
-}
-
-@media (max-width: 1200px) {
-  .go-down {
-    top: 20rem;
-  }
-}
-
-@media (max-width: 440px) {
-  .go-down {
-    top: 0;
-  }
-}
-
-@media (max-width: 572px) {
-  .img-wrapper-banner2 {
-    display: none;
-  }
-}
-
-@media (max-width: 572px) {
-  .over-image h2 {
-    display: none;
-  }
-}
-
-@media (max-width: 572px) {
-  .over-image p {
-    display: none;
-  }
-}
-
-@media (max-width: 572px) {
-  .over-image input {
-    display: none;
-  }
-}
-
-@media (max-width: 572px) {
-  .over-image button {
-    display: none;
-  }
-}
-
-@media (max-width: 572px) {
-  .some-down {
-    margin-bottom: 1rem;
-  }
 }
 
 @media (max-width: 572px) {
@@ -651,106 +494,9 @@ table th {
   }
 }
 
-@media (max-width: 572px) {
-  .good-img {
-    max-width: 10rem;
-  }
-}
-
 @media (max-width: 414px) {
   div.text-center.grid-3.m-3 {
     margin: 0rem;
-  }
-}
-
-@media (max-width: 700px) {
-  .fun-text {
-    top: 48%;
-  }
-}
-
-@media (max-width: 700px) {
-  .fun-btn {
-    top: 75%;
-  }
-}
-
-@media (max-width: 554px) {
-  .fun-text {
-    font-size: 2rem;
-    top: 43%;
-  }
-}
-
-@media (max-width: 554px) {
-  .fun-btn {
-    top: 68%;
-  }
-}
-
-@media (max-width: 700px) {
-  .img-wrapper-banner2 {
-    z-index: -1;
-    position: absolute;
-    margin: 0;
-    max-height: 95%;
-    left: 0;
-    overflow: hidden;
-    top: 3600px;
-    background-image: url("/src/components/layout/images/Blanket.jpg");
-    /* transform: translate(30%, 50%); */
-  }
-}
-
-@media (max-width: 700px) {
-  .over-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    border: none;
-    z-index: 10;
-    top: 3800px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
-
-@media (max-width: 659px) {
-  .img-wrapper-banner2 {
-    top: 3500px;
-  }
-}
-
-@media (max-width: 659px) {
-  .over-image {
-    top: 3700px;
-  }
-}
-
-@media (max-width: 500px) {
-  .fun-btn {
-    display: none;
-  }
-}
-
-@media (max-width: 562px) {
-  .title {
-    font-size: 2rem;
-    margin: 2rem;
-  }
-}
-
-@media (max-width: 562px) {
-  .fun-btn {
-    top: 68%;
-  }
-}
-
-@media (max-width: 644px) {
-  .over-image {
-    margin: 0rem;
-    padding: 0rem;
   }
 }
 

@@ -140,8 +140,8 @@ const Home = () => {
             that through every box we send.
           </p>
         </div>
-        <div class="elfsight-app-d882abaf-dd6c-4e87-8619-4992e1c6a09e"></div>
       </article>
+      <div class="elfsight-app-d882abaf-dd6c-4e87-8619-4992e1c6a09e"></div>
       <div className={`${styles["img-wrapper-banner2"]}`}>
         {/* <img src={Spices} alt="Blanket"></img> */}
         <div className={`${styles["over-image"]} p-3`}>

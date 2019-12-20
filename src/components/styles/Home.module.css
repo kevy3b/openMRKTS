@@ -112,6 +112,7 @@
   font-size: 3rem;
   display: flex;
   text-shadow: 1px 1px 2px black;
+  margin-right: 4%;
   margin-left: 8%;
   /* padding-right: 65px; */
 }
@@ -121,18 +122,23 @@
     font-size: 1.9rem !important;
     text-align: center;
     margin-left: 0;
+    margin-right: 0;
   }
   .text-and-button .fun-btn {
     margin: 0;
     left: 50%;
-    top: 8rem;
-    transform: translateX(-50%);
+    top: 10rem;
+    transform: translateX(-63%);
   }
 }
 
 @media (max-width: 903px) {
   .fun-text {
+    margin-left: 4%;
     font-size: 5.161vw;
+  }
+  .text-and-button .fun-btn {
+    margin-left: 4%;
   }
 }
 

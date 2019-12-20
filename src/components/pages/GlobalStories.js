@@ -10,12 +10,13 @@ const GlobalStories = () => {
           href="https://youtu.be/1shRECptczY"
           target="_blank"
           rel="noopener noreferrer"
+          className={`${styles["img-project"]}`}
         >
-          <div className={`img-project ${styles.border}`}>
+          <div className={`${styles.border}`}>
             <h2 className={`${styles.libre}`}>
               Honduras - Meet your Local Artisans
             </h2>
-            <div className="img-project">
+            <div>
               <img
                 src={Honduras}
                 alt="Project One"

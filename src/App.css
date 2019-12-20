@@ -506,10 +506,6 @@ table th {
   }
 }
 
-.img-project:hover {
-  opacity: 0.3;
-}
-
 #necklace {
   transform: rotate(270deg) scale(1.5);
 }

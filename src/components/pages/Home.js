@@ -33,6 +33,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
+
       <article className={`${styles["new-container"]}`}>
         <section>
           <h1 className={`m-4 ${styles.title}`}>How it works.</h1>

@@ -41,11 +41,12 @@
   margin: 0 auto;
 }
 
-.fun-btn {
+.text-and-button .fun-btn {
   position: absolute;
   top: 10rem;
   left: 0rem;
   z-index: 2;
+  margin-left: 8%;
 }
 
 .go-down {
@@ -81,7 +82,7 @@
 .img-wrapper-banner {
   position: relative;
   overflow: hidden;
-  z-index: -1;
+  /*z-index: -1;*/
   width: 100%;
   max-height: 60vh;
   min-height: 30rem;
@@ -100,8 +101,8 @@
 }*/
 
 .text-and-button {
+  width: 100%;
   top: 29%;
-  left: 8%;
   position: absolute;
 }
 
@@ -111,19 +112,21 @@
   font-size: 3rem;
   display: flex;
   text-shadow: 1px 1px 2px black;
-  padding-right: 65px;
+  margin-left: 8%;
+  /* padding-right: 65px; */
 }
 
 @media (max-width: 648px) {
   .fun-text {
     font-size: 1.9rem !important;
     text-align: center;
+    margin-left: 0;
   }
-  .fun-btn {
-    margin-right: 0;
+  .text-and-button .fun-btn {
+    margin: 0;
     left: 50%;
-    transform: translateX(-80%);
-    right: 50%;
+    top: 8rem;
+    transform: translateX(-50%);
   }
 }
 

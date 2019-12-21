@@ -34,6 +34,7 @@
   /* background-attachment: fixed; */
   background-position: center 75%;
   opacity: 0.9;
+  background-color: #111;
 }
 
 .good-img {
@@ -92,6 +93,7 @@
   /* background-attachment: fixed; */
   background-position: center 10%;
   opacity: 1;
+  background-color: #111;
 }
 
 /*.img-wrapper-banner img {
